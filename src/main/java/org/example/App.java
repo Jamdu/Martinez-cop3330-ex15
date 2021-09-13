@@ -22,11 +22,10 @@ public class App
         if (pass.equals(phrase))
         {
             System.out.println("Welcome " + username + "!");
-            System.exit(0);
         }
         else {
             System.out.println("You Shall Not Pass!!!!");
-            System.exit(0);
         }
+        System.exit(0);
     }
 }
